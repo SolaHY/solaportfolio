@@ -1,0 +1,92 @@
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+
+body{
+  width:800px;
+  margin-right: auto;
+  margin-left : auto;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+
+/* 削除ボタン用のスタイル */
+.delete {
+  display: inline;
+}
+
+.create {
+  padding-bottom: 5px;
+  border-bottom: solid 1px black;
+  width:800;
+}
+
+.like_title {
+  padding-bottom: 5px;
+  border-bottom: solid 1px black;
+  width:800;
+}
+
+/* 商品のスタイル */
+.items {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+.item {
+  margin-bottom: 20px;
+  list-style: none;
+  border-bottom: solid 1px black;
+}
+.item_body_main {
+  display: flex;
+}
+.item_body_heading {
+  font-weight: bold;
+}
+.item_body_main_img {
+  width: 100px;
+}
+.item_body_main_img img{
+  width: 100%;
+}
+.item_comments {
+  font-size: 13px;
+}
+.item_comments_header {
+  font-weight: bold;
+}
+.item_comments_body {
+  padding:0;
+  list-style: none;
+}
+/*いいねボタン*/
+.like_button {
+  cursor: pointer;
+}
+.like {
+  display: inline;
+}
+.like_item .like_button {
+    color: yellow;
+}
+.item_detail {
+   font-weight: bold;
+   padding-top: 20px;
+}
+
+.form-control {
+  width:200px;
+}
+
