@@ -26,6 +26,10 @@ body{
   display: inline;
 }
 
+.catch {
+  font-style: italic;
+}
+
 .create {
   padding-bottom: 5px;
   border-bottom: solid 1px black;
@@ -88,5 +92,13 @@ body{
 
 .form-control {
   width:200px;
+}
+
+.del_button {
+  background:  #CD5C5C;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  padding: 3px 5px;
 }
 

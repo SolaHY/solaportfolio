@@ -35,6 +35,6 @@
             </form>
         </li>
     </ul>
-    <p>息をするように、買おう。</p>
+    <p class="catch">息をするように、買おう。</p>
 </header>
 @endsection
